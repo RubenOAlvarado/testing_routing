@@ -56,6 +56,10 @@
     ]
   },
   "dependencies": {
-    "bootstrap": "^5.0.1"
+    "@felte/reporter-dom": "^0.3.0",
+    "@felte/validator-yup": "^0.2.5",
+    "bootstrap": "^5.0.1",
+    "felte": "^0.7.4",
+    "yup": "^0.32.9"
   }
 }
