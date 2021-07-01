@@ -24,11 +24,22 @@
     "routify": "routify"
   },
   "devDependencies": {
+    "@felte/reporter-dom": "^0.3.0",
+    "@felte/validator-yup": "^0.2.5",
     "@rollup/plugin-commonjs": "^19.0.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "@roxi/routify": "^2.18.1",
+    "bootstrap": "^5.0.2",
     "cross-env": "^7.0.3",
+    "felte": "^0.7.4",
+    "filepond": "^4.28.2",
+    "filepond-plugin-file-validate-type": "^1.2.6",
+    "filepond-plugin-image-exif-orientation": "^1.0.11",
+    "filepond-plugin-image-preview": "^4.6.6",
+    "firebase": "^8.6.8",
     "fs-extra": "^10.0.0",
+    "gridjs": "^5.0.2",
+    "gridjs-svelte": "^1.2.0",
     "nollup": "^0.16.4",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.2.14",
@@ -43,8 +54,10 @@
     "spank": "^1.7.0",
     "spassr": "^2.6.0",
     "svelte": "^3.38.2",
+    "svelte-filepond": "^0.2.0",
     "svelte-preprocess": "^4.7.3",
-    "tossr": "^1.4.2"
+    "tossr": "^1.4.2",
+    "yup": "^0.32.9"
   },
   "routify": {
     "extensions": "svelte,html,svx,md"
@@ -54,12 +67,5 @@
     "blacklist": [
       "/example/modal/basic/4"
     ]
-  },
-  "dependencies": {
-    "@felte/reporter-dom": "^0.3.0",
-    "@felte/validator-yup": "^0.2.5",
-    "bootstrap": "^5.0.1",
-    "felte": "^0.7.4",
-    "yup": "^0.32.9"
   }
 }

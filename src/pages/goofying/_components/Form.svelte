@@ -3,6 +3,7 @@
     import { validator } from '@felte/validator-yup';
     import * as yup from 'yup';
     import reporterDom from '@felte/reporter-dom';
+    import Photos from './Photos.svelte';
 
     const schema = yup.object({
         profile: yup.object({
@@ -35,6 +36,10 @@
                         <label for="email" class="form-label"><strong>Email:</strong></label>
                         <input type="email" class="form-control" name="email" placeholder="Correo Electrónico" aria-describedby="email-validation" />
                         <div id="email-validation" data-felte-reporter-dom-for="email" class="alert-danger" aria-live="polite" />
+                    </div>
+                    <div class="col">
+                        <label for="photo">Foto:</label>
+                        <Photos  />
                     </div>
                 </div>
             </fieldset>
